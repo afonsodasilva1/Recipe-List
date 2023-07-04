@@ -1,6 +1,6 @@
 import routes from './src/routes.js';
 
-const PORT = 3003
+const PORT = 3010
 
 routes.listen(PORT, () =>{
 
