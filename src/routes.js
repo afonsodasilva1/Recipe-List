@@ -2,6 +2,7 @@ import express from 'express'
 import conection from '../db/conection.js'
 
 const routes = express()
+routes.use(express.json())
 
 
 routes.delete('/deleteReceita/:id_receita', (req, res) =>{
