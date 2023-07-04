@@ -6,9 +6,8 @@ seguintes parâmetros: </p>
 
 <br> As receitas devem ter: </br>
     
-    Titulo
-    
-    <li> Autor
+    <h5> Titulo </h5>
+    Autor
     Ingredientes
     Forma de preparo
 
