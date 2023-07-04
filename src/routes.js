@@ -31,8 +31,15 @@ routes.post('/addFavoritos', (req, res) =>{
 })
 
 routes.get('/showFavoritos', (req, res) => {
-    const sqlCommand = 'SELECT * FROM favoritos;'
-})
+    const sqlCommand = 'SELECT receita.id_receita, receita.titulo  FROM receita JOIN favoritos on receita.id_receita = favoritos.receita_id;;'
 
+    conection.query(sqlCommand, (err, result) =>{
+        if(err){
+            res.status(404).json({'erro':err})
+        }else{
+            res.status(200).json(result)
+        }
+    })
+})
 
 export default routes
