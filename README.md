@@ -1,5 +1,5 @@
 <h2> # Recipe-List </h2>
-<b> A Recipe List API with Nodej JS + Express </b>
+** A Recipe List API with Nodej JS + Express **
 
 <p> Pretende-se criar uma aplicação que funcione como um livro de receita, com as devidas estilizações e seguindo os
 seguintes parâmetros: </p>
