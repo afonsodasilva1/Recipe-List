@@ -4,7 +4,7 @@
 <p> Pretende-se criar uma aplicação que funcione como um livro de receita, com as devidas estilizações e seguindo os
 seguintes parâmetros: </p>
 
-<b>As receitas devem ter:
+<br> As receitas devem ter: </br>
     
     Titulo
     
