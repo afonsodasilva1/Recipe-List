@@ -1,12 +1,14 @@
-<h3> # Recipe-List </h3>
-A Recipe List API with Nodej JS + Express
+<h2> # Recipe-List </h2>
+<b> A Recipe List API with Nodej JS + Express </b>
 
-Pretende-se criar uma aplicação que funcione como um livro de receita, com as devidas estilizações e seguindo os
-seguintes parâmetros:
+<p> Pretende-se criar uma aplicação que funcione como um livro de receita, com as devidas estilizações e seguindo os
+seguintes parâmetros: </p>
 
-As receitas devem ter:
+<b>As receitas devem ter:
+    
     Titulo
-    Autor
+    
+    <li> Autor
     Ingredientes
     Forma de preparo
 
