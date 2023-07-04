@@ -1,9 +1,13 @@
 import express from 'express'
+import conection from '../db/conection.js'
 
 const routes = express()
 
-routes.get('/', (req, res) =>{
-    res.send('Hello, World!')
+routes.post('/addFavoritos', (req, res) =>{
+    const corpo = req.body
+    const sqlCommand = 'INSERT INTO favoritos SET ?;'
+
+
 })
 
 export default routes
