@@ -12,10 +12,10 @@ seguintes parâmetros: </p>
     Forma de preparo
 
 <br> Funcionalidades: </br>
-    1. Listar todas as receitas
-    1. Adicionar uma nova receita
-    1. Pesquisar por uma receita
-    1. Editar uma receita
-    1. Eliminar receita
-    1. Adicionar uma receita a lista dos favoritos
-    1. Listar as receitas marcadas como favoritas
+    <br> 1. Listar todas as receitas
+    <br> 2. Adicionar uma nova receita
+    ,br> 3. Pesquisar por uma receita
+    <br> 4. Editar uma receita
+    <br> 5. Eliminar receita
+    <br> 6. Adicionar uma receita a lista dos favoritos
+    <br> 7. Listar as receitas marcadas como favoritas
