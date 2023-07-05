@@ -26,7 +26,7 @@ routes.post('/addAutor', (req, res) => {
         if(err) {
             res.status(400).json({'erro' : err})
         } else{
-            res.status(200).json(result)
+            res.status(201).json(result)
         }
     })
 })
@@ -39,7 +39,7 @@ routes.post('/addReceita', (req, res) => {
         if(err) {
             res.status(400).json({'erro' : err})
         } else{
-            res.status(200).json(result)
+            res.status(201).json(result)
         }
     })
 })
