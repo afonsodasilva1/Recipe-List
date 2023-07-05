@@ -1,20 +1,6 @@
 import express from 'express'
 import conection from '../db/conection.js'
 
-/* 
-UPDATE: 05 / 07 / 2023 | 11:17 am |- André Fonseca Miguel
-> Adicionado:
-    » Routa do /addAutor
-    » Routa do /addReceita
-    » Routa do /listarReceita
-    » Routa do /listarAutor
-    » Routa do /pesquisarReceita
-    » Routa do /editarReceita
-
-> Modificado:
-    » Posições das routas exitentes, deixando na ordem POST - GET - PUT - DELETE
-*/ 
-
 const routes = express()
 routes.use(express.json())
 
@@ -95,7 +81,7 @@ routes.get('/pesquisarReceita/:id_receita', (req, res) => {
 })
 
 routes.get('/showFavoritos', (req, res) => {
-    const sqlCommand = 'SELECT receita.id_receita, receita.titulo  FROM receita JOIN favoritos on receita.id_receita = favoritos.receita_id;;'
+    const sqlCommand = 'SELECT receita.id_receita, receita.titulo  FROM receita JOIN favoritos on receita.id_receita = favoritos.receita_id;'
 
     conection.query(sqlCommand, (err, result) =>{
         if(err){

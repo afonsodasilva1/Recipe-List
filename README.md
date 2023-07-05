@@ -18,6 +18,33 @@ As receitas devem ter:
     <br> 5. Eliminar receita
     <br> 6. Adicionar uma receita a lista dos favoritos
     <br> 7. Listar as receitas marcadas como favoritas
-    
-By:: Afonso da Silva & André Miguel
+
+/* 
+UPDATE: 05 / 07 / 2023 | 11:17 am |- André Fonseca Miguel
+> Adicionado:
+    » Routa do /addAutor
+    » Routa do /addReceita
+    » Routa do /listarReceita
+    » Routa do /listarAutor
+    » Routa do /pesquisarReceita
+    » Routa do /editarReceita
+
+> Modificado:
+    » Posições das routas exitentes, deixando na ordem POST - GET - PUT - DELETE
+*/     
+
+/* 
+UPDATE: 05 / 07 / 2023 | 00:38 am |- Afonso da Silva Vicente
+> Adicionado:
+    » Routa  /addFavoritos
+    » Routa  /showFavoritos
+    » Routa  /deleteReceita/:id_receita
+    » Conection
+    » server
+*/     
+
+
+
+
+By: Afonso da Silva & André Miguel
 
