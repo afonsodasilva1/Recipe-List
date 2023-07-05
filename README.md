@@ -11,7 +11,7 @@ seguintes parâmetros: </p>
     Ingredientes
     Forma de preparo
 
-<br> <h4> Funcionalidades: <h4> </br>
+<h4> Funcionalidades: <h4>
     <br> 1. Listar todas as receitas
     <br> 2. Adicionar uma nova receita
     <br> 3. Pesquisar por uma receita
