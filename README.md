@@ -19,3 +19,5 @@ seguintes parâmetros: </p>
     <br> 5. Eliminar receita
     <br> 6. Adicionar uma receita a lista dos favoritos
     <br> 7. Listar as receitas marcadas como favoritas
+    
+By: Afonso da Silva & André Miguel
