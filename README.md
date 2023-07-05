@@ -11,11 +11,11 @@ seguintes parâmetros: </p>
     Ingredientes
     Forma de preparo
 
-Funcionalidades:
+<br> Funcionalidades: </br>
     1. Listar todas as receitas
-    2. Adicionar uma nova receita
-    3. Pesquisar por uma receita
-    4. Editar uma receita
-    5. Eliminar receita
-    6. Adicionar uma receita a lista dos favoritos
-    7. Listar as receitas marcadas como favoritas
+    1. Adicionar uma nova receita
+    1. Pesquisar por uma receita
+    1. Editar uma receita
+    1. Eliminar receita
+    1. Adicionar uma receita a lista dos favoritos
+    1. Listar as receitas marcadas como favoritas
