@@ -4,14 +4,14 @@
 <p> Pretende-se criar uma aplicação que funcione como um livro de receita, com as devidas estilizações e seguindo os
 seguintes parâmetros: </p>
 
-<br> As receitas devem ter: </br>
+<br> <h4> As receitas devem ter: </h4>
     
     Titulo
     Autor
     Ingredientes
     Forma de preparo
 
-<br> Funcionalidades: </br>
+<br> <h4> Funcionalidades: <h4> </br>
     <br> 1. Listar todas as receitas
     <br> 2. Adicionar uma nova receita
     <br> 3. Pesquisar por uma receita
