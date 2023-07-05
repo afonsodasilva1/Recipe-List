@@ -39,7 +39,7 @@ UPDATE: 05 / 07 / 2023 | 00:38 am |- Afonso da Silva Vicente
 > Adicionado:
     » Routa  /addFavoritos
     » Routa  /Favoritos
-    » Routa  /deleteReceita/:id_receita
+    » Routa  /apagarReceita/:id_receita
     » Conection
     » server
 */     
