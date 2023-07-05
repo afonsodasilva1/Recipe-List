@@ -38,7 +38,7 @@ UPDATE: 05 / 07 / 2023 | 11:17 am |- André Fonseca Miguel
 UPDATE: 05 / 07 / 2023 | 00:38 am |- Afonso da Silva Vicente
 > Adicionado:
     » Routa  /addFavoritos
-    » Routa  /showFavoritos
+    » Routa  /Favoritos
     » Routa  /deleteReceita/:id_receita
     » Conection
     » server
