@@ -28,11 +28,9 @@ UPDATE: 05 / 07 / 2023 | 11:17 am |- André Fonseca Miguel
     » Routa do /listarAutor
     » Routa do /pesquisarReceita
     » Routa do /editarReceita
-
 > Modificado:
     » Posições das routas exitentes, deixando na ordem POST - GET - PUT - DELETE
 */     
-
 
 /* 
 UPDATE: 05 / 07 / 2023 | 00:38 am |- Afonso da Silva Vicente
@@ -43,6 +41,5 @@ UPDATE: 05 / 07 / 2023 | 00:38 am |- Afonso da Silva Vicente
     » Conection
     » server
 */     
-
 Built By: Afonso da Silva & André Miguel
 
