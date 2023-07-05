@@ -9,17 +9,7 @@ As receitas devem ter:
     Autor
     Ingredientes
     Forma de preparo
-
-<<<<<<< Updated upstream
-Funcionalidades:
-    1. Listar todas as receitas
-    2. Adicionar uma nova receita
-    3. Pesquisar por uma receita
-    4. Editar uma receita
-    5. Eliminar receita
-    6. Adicionar uma receita a lista dos favoritos
-    7. Listar as receitas marcadas como favoritas
-=======
+    
 <h4> Funcionalidades: </h4>
     <br> 1. Listar todas as receitas
     <br> 2. Adicionar uma nova receita
@@ -30,4 +20,4 @@ Funcionalidades:
     <br> 7. Listar as receitas marcadas como favoritas
     
 By:: Afonso da Silva & André Miguel
->>>>>>> Stashed changes
+
