@@ -80,7 +80,7 @@ routes.get('/pesquisarReceita/:id_receita', (req, res) => {
     })
 })
 
-routes.get('/showFavoritos', (req, res) => {
+routes.get('/favoritos', (req, res) => {
     const sqlCommand = 'SELECT receita.id_receita, receita.titulo  FROM receita JOIN favoritos on receita.id_receita = favoritos.receita_id;'
 
     conection.query(sqlCommand, (err, result) =>{
@@ -106,7 +106,7 @@ routes.put('/editarReceita/:id_receita', (req, res) => {
     })
 })
 
-routes.delete('/deleteReceita/:id_receita', (req, res) =>{
+routes.delete('/apagaReceita/:id_receita', (req, res) =>{
     const id_receita = req.params.id_receita
     const sqlCommand = 'DELETE FROM receita WHERE id_receita = ?;'
 
