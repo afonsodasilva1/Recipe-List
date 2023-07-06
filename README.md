@@ -19,7 +19,8 @@ As receitas devem ter:
     <br> 6. Adicionar uma receita a lista dos favoritos
     <br> 7. Listar as receitas marcadas como favoritas
 
-/* 
+<!-- 
+
 UPDATE: 05 / 07 / 2023 | 11:17 am |- André Fonseca Miguel
 > Adicionado:
     » Routa do /addAutor
@@ -30,9 +31,11 @@ UPDATE: 05 / 07 / 2023 | 11:17 am |- André Fonseca Miguel
     » Routa do /editarReceita
 > Modificado:
     » Posições das routas exitentes, deixando na ordem POST - GET - PUT - DELETE
-*/     
 
-/* 
+-->
+
+<!-- 
+
 UPDATE: 05 / 07 / 2023 | 00:38 am |- Afonso da Silva Vicente
 > Adicionado:
     » Conection
@@ -41,5 +44,12 @@ UPDATE: 05 / 07 / 2023 | 00:38 am |- Afonso da Silva Vicente
     » Routa  /Favoritos
     » Routa  /apagarReceita/:id_receita
 */     
-Built By: Afonso da Silva & André Miguel
 
+UPDATE: 06 / 07 / 2023 | 01:52 pm |- André Fonseca Miguel
+> Modificado:
+    » Routa /ListarReceitas agora chama nome do autor e oculta as IDs
+    » Comentário no README para os updates. Usando <! -> e não mais /*  */
+
+-->
+
+Built By: Afonso da Silva & André Miguel

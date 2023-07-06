@@ -44,7 +44,7 @@ routes.post('/addFavoritos', (req, res) =>{
 })
 
 routes.get('/listarReceita', (req, res) => {
-    const sqlCommand = 'SELECT * FROM receita;'
+    const sqlCommand = 'SELECT receita.titulo, receita.ingredientes, receita.forma_preparo, autor.nome FROM receita JOIN autor ON receita.autor_id = autor.id_autor;'
 
     conection.query(sqlCommand, (err, result) => {
         if(err){
