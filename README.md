@@ -35,10 +35,10 @@ UPDATE: 05 / 07 / 2023 | 11:17 am |- André Fonseca Miguel
 /* 
 UPDATE: 05 / 07 / 2023 | 00:38 am |- Afonso da Silva Vicente
 > Adicionado:
+    » Conection
     » Routa  /addFavoritos
     » Routa  /Favoritos
     » Routa  /apagarReceita/:id_receita
-    » Conection
     » server
 */     
 Built By: Afonso da Silva & André Miguel
