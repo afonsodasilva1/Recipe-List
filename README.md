@@ -38,7 +38,7 @@ UPDATE: 05 / 07 / 2023 | 00:38 am |- Afonso da Silva Vicente
     » Routa  /addFavoritos
     » Routa  /Favoritos
     » Routa  /apagarReceita/:id_receita
-    » Conection.js
+    » Conection
     » server
 */     
 Built By: Afonso da Silva & André Miguel
