@@ -32,7 +32,7 @@ routes.post('/addReceita', (req, res) => {
 
 routes.post('/addFavoritos', (req, res) =>{
     const corpo = req.body
-    const sqlCommand = 'INSERT INTO favoritos SET ?;'
+    const sqlCommand = 'INSERT INTO favoritos SET ?'
 
     conection.query(sqlCommand, corpo, (err, result) =>{
         if(err){
