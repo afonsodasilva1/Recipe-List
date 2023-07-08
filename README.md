@@ -53,7 +53,9 @@ UPDATE: 06 / 07 / 2023 | 01:52 pm |- André Fonseca Miguel
 
 UPDATE: 08 / 07 / 2023 | 6:18 pm |- Afonso da Silva Vicente
 > Adicionado:
-    » .env (Neste arquivo coloquei as variaveis de ambiente do nosso sistema para torná-lo mais seguro)
+    » .env 
+    » gitignore
+    - Neste arquivo coloquei as variaveis de ambiente do nosso sistema para torná-lo mais seguro
 -->
 
 
