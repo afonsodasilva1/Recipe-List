@@ -50,6 +50,11 @@ UPDATE: 06 / 07 / 2023 | 01:52 pm |- André Fonseca Miguel
     » Routa /ListarReceitas agora chama nome do autor e oculta as IDs
     » Comentário no README para os updates. Usando <! -> e não mais /*  */
 
+
+UPDATE: 08 / 07 / 2023 | 6:18 pm |- Afonso da Silva Vicente
+> Adicionado:
+    » .env (Neste arquivo coloquei as variaveis de ambiente do nosso sistema para torná-lo mais seguro)
 -->
+
 
 Built By: Afonso da Silva & André Miguel

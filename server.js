@@ -3,7 +3,7 @@ import dotenv from 'dotenv'
 
 dotenv.config()
 
-const PORT = 
+const PORT = process.env.SERVER_PORT || 3003 
 
 routes.listen(PORT, () =>{
 
