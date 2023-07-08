@@ -6,7 +6,7 @@ routes.use(express.json())
 
 routes.post('/addAutor', (req, res) => {
     const body = req.body
-    const sqlCommand = 'INSERT INTO autor SET ?'
+    const sqlCommand = 'INSERT INTO autor SET ?;'
 
     conection.query(sqlCommand, body, (err, result) => {
         if(err) {
