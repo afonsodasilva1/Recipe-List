@@ -19,7 +19,7 @@ routes.post('/addAutor', (req, res) => {
 
 routes.post('/addReceita', (req, res) => {
     const body = req.body
-    const sqlCommand = 'INSERT INTO receita SET ?;'
+    const sqlCommand = 'INSERT INTO receita SET ?'
 
     conection.query(sqlCommand, body, (err, result) => {
         if(err) {
