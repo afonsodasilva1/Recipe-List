@@ -3,7 +3,7 @@ import dotenv from 'dotenv'
 
 dotenv.config()
 
-const PORT = 3010
+const PORT = 
 
 routes.listen(PORT, () =>{
 
