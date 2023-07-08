@@ -7,7 +7,7 @@ const conection  = mysql.createConnection({
     host: process.env.DB_HOST,
     port: process.env.DB_PORT,
     user: process.env.DB_USER,
-    password: ,
+    password: process.DB_PASSWORD,
     database: 'recipe_list'
 })
 
