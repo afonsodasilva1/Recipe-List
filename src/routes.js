@@ -1,5 +1,5 @@
 import express from 'express'
-import conection from '../db/conection.js'
+import conection from './app/db/conection.js'
 
 const routes = express()
 routes.use(express.json())
